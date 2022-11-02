@@ -13,23 +13,28 @@ header{
     padding-top: 10px;
     padding-bottom: 5%;
 }
+
+nav{
+    padding-right: 20px;
+}
+
 #logo{
     float: left;
 }
 
 .links{
-    
     list-style: none;
     a{
         text-decoration: none;
         color: white;
+        padding-left: 15px;
     }
 }
 
 .link{
+    padding-top: 30px;
     font-size: 2em;
     float: right;
-    vertical-align: baseline;
 }
 
 
@@ -64,6 +69,25 @@ main{
     }
 
 }
+
+
+// Features
+#features{
+    color: white;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.tea{
+    text-align: center;
+    color: white;
+}
+
+.tea img{
+    height: 200px;
+    width: 300px;
+}
+
 
 // Locations
 #locations{

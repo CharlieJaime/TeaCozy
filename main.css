@@ -13,6 +13,10 @@ header {
   padding-bottom: 5%;
 }
 
+nav {
+  padding-right: 20px;
+}
+
 #logo {
   float: left;
 }
@@ -23,12 +27,13 @@ header {
 .links a {
   text-decoration: none;
   color: white;
+  padding-left: 15px;
 }
 
 .link {
+  padding-top: 30px;
   font-size: 2em;
   float: right;
-  vertical-align: baseline;
 }
 
 /******
@@ -54,6 +59,23 @@ main {
 }
 #mission h1 {
   padding-top: 25%;
+}
+
+#features {
+  color: white;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tea {
+  text-align: center;
+  color: white;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
 }
 
 #locations {
