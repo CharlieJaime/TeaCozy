@@ -2,7 +2,12 @@
 General
 ******/
 body {
-  background-color: black;
+  background-color: #B8CCD9;
+  background-color: #417339;
+  background-color: #2148BF;
+  background-color: #D99A4E;
+  background-color: #8C6645;
+  background-color: #000000;
 }
 
 /******
@@ -15,6 +20,7 @@ header {
 
 nav {
   padding-right: 20px;
+  position: fixed;
 }
 
 #logo {
@@ -26,8 +32,11 @@ nav {
 }
 .links a {
   text-decoration: none;
-  color: white;
-  padding-left: 15px;
+  color: #fff;
+  padding-left: 20px;
+}
+.links a:hover {
+  color: #D99A4E;
 }
 
 .link {
@@ -68,7 +77,15 @@ main {
   margin: 0 auto;
 }
 
+.teas {
+  list-style: none;
+  display: flex;
+}
+
 .tea {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: center;
   color: white;
 }

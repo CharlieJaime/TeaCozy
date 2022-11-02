@@ -1,8 +1,15 @@
+@import "default.scss";
+
 /******
 General
 ******/
 body{
-    background-color: black;
+    background-color: #B8CCD9;
+    background-color: #417339;
+    background-color: #2148BF;
+    background-color: #D99A4E;
+    background-color: #8C6645;
+    background-color: #000000;
 }
 
 
@@ -16,6 +23,7 @@ header{
 
 nav{
     padding-right: 20px;
+    position: fixed;
 }
 
 #logo{
@@ -26,8 +34,12 @@ nav{
     list-style: none;
     a{
         text-decoration: none;
-        color: white;
-        padding-left: 15px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    a:hover{
+        color: $text;
     }
 }
 
@@ -78,7 +90,16 @@ main{
     width: 1000px;
     margin: 0 auto;
 }
+
+.teas{
+    list-style: none;
+    display: flex;
+}
+
 .tea{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
     color: white;
 }
