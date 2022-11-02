@@ -1,0 +1,65 @@
+/******
+General
+******/
+body {
+  background-color: black;
+}
+
+/******
+Nav
+******/
+header {
+  padding-top: 10px;
+  padding-bottom: 5%;
+}
+
+#logo {
+  float: left;
+}
+
+.links {
+  list-style: none;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  font-size: 2em;
+  float: right;
+  vertical-align: baseline;
+}
+
+/******
+Content
+******/
+main {
+  clear: both;
+}
+
+#mission {
+  clear: both;
+  height: 100vh;
+  background-image: url("assests/img-mission-background.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+#mission #missiontext {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  font-size: 2em;
+}
+#mission h1 {
+  padding-top: 25%;
+}
+
+#locations {
+  height: 100vh;
+  background-image: url("assests/img-locations-background.jpg");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */
