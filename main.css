@@ -14,7 +14,7 @@ body {
 Nav
 ******/
 header {
-  padding-bottom: 5%;
+  height: 69px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -23,10 +23,14 @@ nav {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 0px;
+  vertical-align: middle;
 }
 
 #logo {
   float: left;
+}
+#logo img {
+  height: 50px;
 }
 
 .links {
@@ -44,7 +48,7 @@ nav {
 
 .link {
   padding-top: 30px;
-  font-size: 2em;
+  font-size: 1.5em;
   float: right;
 }
 
@@ -90,7 +94,7 @@ main {
   list-style: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 #features .tea {
   float: left;
@@ -115,7 +119,7 @@ main {
   margin-left: 10px;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
 }
 
